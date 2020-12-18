@@ -1,0 +1,91 @@
+h1{
+    color:blueviolet;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    background-color: azure;
+    display:flex;
+    justify-content:space-between;
+    border:solid;
+    font-style: italic;
+}
+.background{
+    background-color: blanchedalmond;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:white;
+}
+.origami:hover{
+    transform: scale(1.1);
+}
+.origami p{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+body{
+    margin: 0px;
+    
+}
+.grid img{
+    
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+.origami{
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family: fantasy;
+    position:relative;
+}
+.origami:hover img{
+    opacity:0.32;
+}
+.origami:hover p{
+    opacity: 1;
+    margin-top: -100px;
+    margin-left: -30px;
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size: 15px;
+    font-weight: 5;
+}
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+}
+.images{
+    margin-top: 10px;
+    text-align: center;
+}
+.about{
+    text-align: center;
+    font-size: 50px;
+    background-color: crimson;
+}
+.aboutus{
+    text-align: center;
+}
+.follow{
+    text-align: center;
+    font-size: 50px;
+    background-color: crimson;
+}
